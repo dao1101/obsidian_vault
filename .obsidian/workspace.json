@@ -11,10 +11,10 @@
             "id": "bb74ad4485ea3423",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -187,6 +187,8 @@
   },
   "active": "bb74ad4485ea3423",
   "lastOpenFiles": [
+    "ECSE250_notes/Lecture 4.md",
+    "ECSE250_notes/Lecture 1.md",
     "conflict-files-obsidian-git.md",
     "Attachments/Screenshot 2026-09-15 at 15.39.05.png",
     "Attachments/Screenshot 2026-09-15 at 15.37.21.png",
