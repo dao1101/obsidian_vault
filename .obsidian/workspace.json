@@ -1,24 +1,20 @@
 {
   "main": {
-    "id": "86ee262eb56f6359",
+    "id": "d611e3fda862c7b5",
     "type": "split",
     "children": [
       {
-        "id": "bdfa39770c848a98",
+        "id": "cc52cc5d93332009",
         "type": "tabs",
         "children": [
           {
-            "id": "b7680eb4cf70df7b",
+            "id": "bb74ad4485ea3423",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ECSE206_notes/Homework2.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Homework2"
+              "title": "New tab"
             }
           }
         ]
@@ -27,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "a53ed1c2415d6170",
+    "id": "a30a67005c52578a",
     "type": "split",
     "children": [
       {
-        "id": "28ad373f6feb6993",
+        "id": "98f008a062425260",
         "type": "tabs",
         "children": [
           {
-            "id": "c5f80ab618e531f5",
+            "id": "235a3c9e074b1137",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -50,7 +46,7 @@
             }
           },
           {
-            "id": "f6bc1b0d7cbedf4a",
+            "id": "cda4c4ebdb1e78d1",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -67,7 +63,7 @@
             }
           },
           {
-            "id": "5ade7b5f46a74d94",
+            "id": "bff6f897ced1565d",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -86,20 +82,20 @@
     "width": 300
   },
   "right": {
-    "id": "7b4631b76b8eb520",
+    "id": "8f53d54f34147595",
     "type": "split",
     "children": [
       {
-        "id": "a4ef97ba8b55604c",
+        "id": "52c359bb7c79e9b4",
         "type": "tabs",
         "children": [
           {
-            "id": "ff0787037cd2f046",
+            "id": "523dc3e9c5c3aa27",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ECSE206_notes/Homework2.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,12 +109,12 @@
             }
           },
           {
-            "id": "cb8e61d2118b8eb3",
+            "id": "6a35430748da2bd4",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ECSE206_notes/Homework2.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -127,7 +123,7 @@
             }
           },
           {
-            "id": "172c2b2c65e5e4e6",
+            "id": "71fd4dd598341c3c",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -142,7 +138,7 @@
             }
           },
           {
-            "id": "a8f73b4d81fc2eae",
+            "id": "5cf039b872b63752",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -156,12 +152,12 @@
             }
           },
           {
-            "id": "3d9d64dadf54f65b",
+            "id": "c39be783bcf02276",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "ECSE206_notes/Homework2.md",
+                "file": "conflict-files-obsidian-git.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -189,20 +185,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b7680eb4cf70df7b",
+  "active": "bb74ad4485ea3423",
   "lastOpenFiles": [
-    "ECSE206_notes/Lecture_5.md",
-    "Attachments/Screenshot 2026-09-08 at 14.06.57.png",
-    "Attachments/Screenshot 2026-09-14 at 12.35.40.png",
-    "Attachments/Screenshot 2026-09-14 at 12.35.20.png",
+    "conflict-files-obsidian-git.md",
     "Attachments/Screenshot 2026-09-15 at 15.39.05.png",
     "Attachments/Screenshot 2026-09-15 at 15.37.21.png",
+    "Attachments/Screenshot 2026-09-14 at 12.35.20.png",
+    "Attachments/Screenshot 2026-09-14 at 12.35.40.png",
     "Attachments/Screenshot 2026-09-11 at 13.51.28.png",
     "Attachments/Screenshot 2026-09-11 at 13.48.58.png",
     "Attachments/Screenshot 2026-09-11 at 13.43.29.png",
+    "Attachments/Screenshot 2026-09-11 at 13.13.27.png",
     "Attachments/Screenshot 2026-09-11 at 13.39.36.png",
     "Attachments/Screenshot 2026-09-11 at 13.21.44.png",
     "Attachments",
-    "ECSE206_notes/Lecture_2.md"
+    "ECSE206_notes/Attachments"
   ]
 }
