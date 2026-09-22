@@ -10,7 +10,7 @@
 	- otherwise create two directories John and Smith
 ```bash
 x = "John Smith"
-mkdir $x #
+mkdir $x # expand to mkdir John Smith
 # creates two directory
 mkdir "$x"
 ```
