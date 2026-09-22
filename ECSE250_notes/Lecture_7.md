@@ -100,3 +100,24 @@ Class Main() {
 }
 //can delare multiple constructors
 ```
+
+| Null |
+| ---- |
+| 0    |
+| "KP" |
+| 123  |
+Assign top two to s, assign bottom two to s2
+
+#### Other methods
+- called on specific object
+```java
+s2.study(); //correct
+Student.study()//wrong
+```
+
+- `this` method
+```java
+public void study(){
+	System.out.println(name+)
+}
+```
