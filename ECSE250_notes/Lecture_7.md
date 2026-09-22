@@ -37,3 +37,20 @@ public class Main{
 ```
 
 If no public/private specified: package-private by default
+- which means only the classes in the same package (folder) can have access to it
+- package name must be the same as the folder name
+
+First example (correct)
+```java
+package people;
+public class Student {...}
+```
+
+```java
+package buildings;
+public class Resident{
+	Student resident; 
+	//have access since student is a public class
+	//
+}
+```
