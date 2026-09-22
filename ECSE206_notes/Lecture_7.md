@@ -22,3 +22,22 @@ Exit status
 - 0 means success, 1 commonly means failure
 
 ==; can put different commands on the same line or && but only if the first one exits successfully==
+
+if statement
+```bash
+if COMMAND; then #if command exits with 0, it runs then block
+
+	...
+elif COMMNAD; then 
+	...
+else
+	...
+fi
+```
+
+while loop
+```bash
+while COMMAND; do
+	...
+done
+```
