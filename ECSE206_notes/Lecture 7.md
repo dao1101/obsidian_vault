@@ -14,3 +14,10 @@ mkdir $x # expand to mkdir John Smith
 # creates two directory
 mkdir "$x"
 ```
+
+#### Control flow
+
+Exit status
+- Any program when it exists, gives a status code back to the OS to signal whether the command succeeded or failed
+- 0 means success, 1 commonly means failure
+- 
