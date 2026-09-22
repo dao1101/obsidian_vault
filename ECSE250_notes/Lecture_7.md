@@ -40,7 +40,7 @@ If no public/private specified: package-private by default
 - which means only the classes in the same package (folder) can have access to it
 - package name must be the same as the folder name
 
-First example (correct)
+Example (correct)
 ```java
 package people;
 public class Student {...}
@@ -50,7 +50,27 @@ public class Student {...}
 package buildings;
 public class Resident{
 	Student resident; 
-	//have access since student is a public class
-	//
+	//have access since Student is a public class
+	//even in different packages
 }
 ```
+
+Example (wrong)
+```java
+package people;
+class Student {...} //no public
+```
+
+```java
+package buidings;
+public class Resident{
+	Student resident;
+	//compile error
+}
+```
+
+One file usually contains only one class, *especially public class*, and the same name as file name.
+
+In general, fields are set to private, while methods are set to public.
+
+#### Fields vs local 
