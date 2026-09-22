@@ -20,4 +20,5 @@ mkdir "$x"
 Exit status
 - Any program when it exists, gives a status code back to the OS to signal whether the command succeeded or failed
 - 0 means success, 1 commonly means failure
-- 
+
+==; can put different commands on the same line or && but only if the first one exits successfully==
