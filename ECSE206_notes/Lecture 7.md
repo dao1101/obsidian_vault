@@ -5,6 +5,12 @@
 #### Quotes
 - single quotes are use to preserve the literal value of characters within the quotes
 - double quotes are used to preserve the literal values of characters within the quotes
-	- exceptions: $ (positional variables still get expanded), ', \
+	- exceptions: $ (variables still get expanded), \` , \ (escape character)
 - e.g. `mkdir "John Smith"` --> a directory called John Smith
-- otherwise two directories John and Smith
+	- otherwise create two directories John and Smith
+```bash
+x = "John Smith"
+mkdir $x #
+# creates two directory
+mkdir "$x"
+```
