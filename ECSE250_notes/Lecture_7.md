@@ -73,4 +73,19 @@ One file usually contains only one class, *especially public class*, and the sam
 
 In general, fields are set to private, while methods are set to public.
 
-#### Fields vs local 
+#### Fields vs Local Variables?
+
+Field: declared for class and is used anywhere in class.
+Local variables: declared inside a method
+
+#### Constructor
+- special method used to create object 
+
+```java
+public Student(){}
+//default constructor; fields set to default values
+```
+
+```java
+public Student (String sName, int sID)
+```
