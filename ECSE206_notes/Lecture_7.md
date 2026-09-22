@@ -41,3 +41,5 @@ while COMMAND; do
 	...
 done
 ```
+
+comparison(test / \[)
