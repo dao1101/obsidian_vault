@@ -87,5 +87,15 @@ public Student(){}
 ```
 
 ```java
-public Student (String sName, int sID)
+public Student (String sName, int sID){ //second letter upper case
+	name = sName;
+	id = sId;
+} //to initialize object
+```
+
+```java
+Class Main() {
+	Student s = new Student();
+	Student s2 = new Student 
+}
 ```
