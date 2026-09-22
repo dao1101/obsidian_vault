@@ -118,6 +118,16 @@ Student.study()//wrong
 - `this` method
 ```java
 public void study(){
-	System.out.println(name+)
+	System.out.println(name+"is studying");
+	
+	System.out.println(this.name + "is studying")
+	//object on which method is called
+}
+```
+
+```java
+public Student(String name, int id){
+	this.name = name;
+	
 }
 ```
