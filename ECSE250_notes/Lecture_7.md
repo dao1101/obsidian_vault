@@ -94,8 +94,9 @@ public Student (String sName, int sID){ //second letter upper case
 ```
 
 ```java
-Class Main() {
+Class Main() { 
 	Student s = new Student();
-	Student s2 = new Student 
+	Student s2 = new Student ("KP", 123);
 }
+//can delare multiple constructors
 ```
