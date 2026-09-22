@@ -23,14 +23,17 @@ public class Student{
 	private: only methods inside class can access
 	public: any method can access
 	*/
+}
 
 public class Main{
 	public ... {
 		Student s = new Student; 
 		//if field is public		
 		s.id = 12345
+		s.name //private, cannot be accessed outside class
 	}
 }
 
-}
 ```
+
+If no public/private specified: package-private by default
