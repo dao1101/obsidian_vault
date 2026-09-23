@@ -127,7 +127,19 @@ public void study(){
 
 ```java
 public Student(String name, int id){
-	this.name = name;
-	
+	this.name = name; //second name is local variable
+	this.id = id;
+	//object being called
+	//`this` is necessary
+}
+```
+
+```java
+Class Main{
+	void main(){
+		Student s = new Student();
+		System.out.print(this.name); //cannot use outside of Student
+		System.out.print(s.name)//depends on accessibility
+	}
 }
 ```
