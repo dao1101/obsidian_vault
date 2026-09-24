@@ -34,6 +34,7 @@ else
 	...
 fi
 ```
+==[...] only needed if its a conditional expression, a command does not need one==
 
 while loop
 ```bash
