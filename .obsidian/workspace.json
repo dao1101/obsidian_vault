@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ECSE250_notes/Lecture_7.md",
+                "file": "ECSE250_notes/Lecture_4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture_7"
+              "title": "Lecture_4"
             }
           }
         ]
@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 221.9296875,
-    "collapsed": true
+    "width": 221.9296875
   },
   "right": {
     "id": "8f53d54f34147595",
@@ -192,12 +191,12 @@
   },
   "active": "bb74ad4485ea3423",
   "lastOpenFiles": [
+    "ECSE250_notes/Lecture_7.md",
     "ECSE250_notes/Lecture_5.md",
     "ECSE250_notes/Lecture_6.md",
     "ECSE250_notes/Lecture_2.md",
     "ECSE250_notes/Lecture_3.md",
     "ECSE250_notes/Lecture_4.md",
-    "ECSE250_notes/Lecture_7.md",
     "ECSE250_notes/Lecture_1.md",
     "Lecture _7.md",
     "ECSE206_notes/Lecture_7.md",
