@@ -486,3 +486,42 @@ echo '$USER'
 
 # more natural to just use the `if` statement to check whether running a command succeeds.
 ```
+
+
+```bash
+#backup
+#!/usr/bin/bash
+
+mkdir -p $HOME/comp-206/backups
+
+TIMESTAMP=$(date +"%Y-%m-%dT%H:%M:%S")
+
+BACKUP_FILE="$HOME/comp-206/backups/homework-${TIMESTAMP}.tar.gz"  
+
+tar -czf "$BACKUP_FILE" -C "$HOME/comp-206" homework
+
+echo "Created backup: backups/homework-${TIMESTAMP}.tar.gz"
+~
+```
+
+```bash
+#get-homework
+#!/bin/bash
+
+HW_PATH="$HOME/comp-206/homework"
+
+SEMESTER="fall2026"
+
+if ls $HW_PATH/hw$1 >/dev/null 2>&1
+
+then
+        echo "Homework $1 directory already exists. Overwrite? [y/n]"
+        read answer
+        if [ "$answer" = "y" ]; then
+                rm -rf $HW_PATH/hw$1
+                git clone "$SEMESTER-comp206:hw$1.git" "$HW_PATH/hw$1"
+        fi
+else
+        git clone "$SEMESTER-comp206:hw$1.git" "$HW_PATH/hw$1"
+fi
+```

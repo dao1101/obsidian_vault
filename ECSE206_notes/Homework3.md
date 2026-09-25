@@ -34,3 +34,36 @@ mentioned date format.
 first, or else you'll need to go back and rename the files manually when you
 
 want to test again later.
+
+```bash
+#!/bin/bash
+
+# usage: start_wih_date()  <filename>
+
+# returns 0 if <filename> starts with YYYY-MM-DD else 1
+
+start_with_date() {
+        local input="$1"
+        if [[ "$input" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}- ]] ; then
+                return 0
+        else
+                return 1
+        fi
+}
+
+directory="$1"
+
+today=$(date +%Y-%m-%d)
+
+for file in "$directory"/*; do  
+
+        filename=$(basename "$file")
+
+        if start_with_date "$filename"; then
+  
+                echo "Skipping" > /dev/null 2>&1
+        else
+                mv "$file" "$directory/${today}-${filename}"
+        fi
+done
+```
