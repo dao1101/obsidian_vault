@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ECSE206_notes/Lecture_8.md",
+                "file": "ECSE250_notes/Lecture_8.md",
                 "mode": "source",
                 "source": false
               },
@@ -83,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 221.9296875
+    "width": 221.9296875,
+    "collapsed": true
   },
   "right": {
     "id": "8f53d54f34147595",
@@ -191,16 +192,17 @@
   },
   "active": "d5bc49972c9fc7f7",
   "lastOpenFiles": [
+    "ECSE250_notes/Lecture_7.md",
+    "ECSE250_notes/Lecture_8.md",
+    "ECSE250_notes/Lecture_6.md",
+    "ECSE206_notes/Lecture_8.md",
     "ECSE206_notes/Lecture_4.md",
     "ECSE206_notes/Lecture_7.md",
-    "ECSE206_notes/Lecture_8.md",
     "Attachments/Screenshot 2026-09-24 at 21.02.01.png",
     "ECSE206_notes/Homework3.md",
     "Passivity-Preserving Macromodeling.md",
     "ECSE250_notes/Lecture_4.md",
-    "ECSE250_notes/Lecture_7.md",
     "ECSE250_notes/Lecture_5.md",
-    "ECSE250_notes/Lecture_6.md",
     "ECSE250_notes/Lecture_2.md",
     "ECSE250_notes/Lecture_3.md",
     "ECSE250_notes/Lecture_1.md",
