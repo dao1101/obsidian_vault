@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "cc52cc5d93332009",
+        "id": "f97507d661039e16",
         "type": "tabs",
         "children": [
           {
-            "id": "bb74ad4485ea3423",
+            "id": "d5bc49972c9fc7f7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -189,10 +189,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bb74ad4485ea3423",
+  "active": "d5bc49972c9fc7f7",
   "lastOpenFiles": [
+    "ECSE206_notes/Lecture_4.md",
     "ECSE206_notes/Lecture_7.md",
     "ECSE206_notes/Lecture_8.md",
+    "Attachments/Screenshot 2026-09-24 at 21.02.01.png",
     "ECSE206_notes/Homework3.md",
     "Passivity-Preserving Macromodeling.md",
     "ECSE250_notes/Lecture_4.md",
@@ -204,7 +206,6 @@
     "ECSE250_notes/Lecture_1.md",
     "Lecture _7.md",
     "ECSE206_notes/Lecture_6.md",
-    "ECSE206_notes/Lecture_4.md",
     "ECSE206_notes/Lecture_5.md",
     "ECSE206_notes/Lecture_2.md",
     "conflict-files-obsidian-git.md",
@@ -217,7 +218,6 @@
     "Attachments/Screenshot 2026-09-11 at 13.43.29.png",
     "Attachments/Screenshot 2026-09-11 at 13.13.27.png",
     "Attachments/Screenshot 2026-09-11 at 13.39.36.png",
-    "Attachments/Screenshot 2026-09-11 at 13.21.44.png",
     "Attachments",
     "ECSE206_notes/Attachments"
   ]
