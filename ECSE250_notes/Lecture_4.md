@@ -59,6 +59,8 @@ char g = (char)(f+1);
 ```
 *Need explicit casting if result might not fit*
 
+==(int)(char): you get the ASCII code of that character==
+
 Is `char g = (char)(f) + 1` enough?
 - no, the integer operation is outside the casting, so it still treats it as integers
 

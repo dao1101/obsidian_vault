@@ -2,12 +2,12 @@
 
 Objects: group of relevant pieces of data
 
-| Student (object)                   |
-| ---------------------------------- |
-| name: String<br>Id: int <br>(data) |
-| Study (method)                     |
+| Student                      |          |
+| ---------------------------- | -------- |
+| name: String<br>Id: int <br> | (data)   |
+| Study()                      | (method) |
 class
-- where out program runs (main)
+- where our program runs (main)
 - template for creating objects (instance of a class)
 
 ```java
@@ -30,7 +30,7 @@ public class Main{
 		Student s = new Student; 
 		//if field is public		
 		s.id = 12345
-		s.name //private, cannot be accessed outside class
+		s.name //error, private, cannot be accessed outside class
 	}
 }
 
@@ -71,7 +71,7 @@ public class Resident{
 
 One file usually contains only one class, *especially public class*, and the same name as file name.
 
-In general, fields are set to private, while methods are set to public.
+==In general, fields are set to private, while methods are set to public.==
 
 #### Fields vs Local Variables?
 
@@ -101,11 +101,11 @@ Class Main() {
 //can delare multiple constructors
 ```
 
-| Null |
-| ---- |
-| 0    |
-| "KP" |
-| 123  |
+| Null | <-- s  |
+| ---- | ------ |
+| 0    |        |
+| "KP" | <-- s2 |
+| 123  |        |
 Assign top two to s, assign bottom two to s2
 
 #### Other methods
@@ -121,7 +121,7 @@ public void study(){
 	System.out.println(name+"is studying");
 	
 	System.out.println(this.name + "is studying")
-	//object on which method is called
+	//`this` is the object on which the method is called
 }
 ```
 
@@ -131,6 +131,7 @@ public Student(String name, int id){
 	this.id = id;
 	//object being called
 	//`this` is necessary
+	//在实际开发中，大家更习惯把参数名和属性名写成一模一样，这时候就必须使用`this`来防止“名称遮蔽”（Name Shadowing）
 }
 ```
 
@@ -138,7 +139,7 @@ public Student(String name, int id){
 Class Main{
 	void main(){
 		Student s = new Student();
-		System.out.print(this.name); //cannot use outside of Student
+		System.out.print(this.name); //error, `this`cannot use outside of Student
 		System.out.print(s.name)//depends on accessibility
 	}
 }
