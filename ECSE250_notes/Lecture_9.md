@@ -16,7 +16,6 @@ class FTStudent extends Student {
     //@Override 是注解，写在被重写的方法上方，用于检查语法是否正确
     @Override 
     public void study() {
-        // Java 中要用 System.out.println，而不是 print
         System.out.println("The FTStudent is studying"); 
     }
 }
@@ -50,10 +49,10 @@ s.study(); //kp is studying
 s.study("mp") //kp is studying with mp
 ```
 
-|             | diff. return type | diff. parameters | same class   | same method name |
-| ----------- | ----------------- | ---------------- | ------------ | ---------------- |
-| overloading | yes               | yes              | yes          | yes              |
-| overriding  | no                | no               | no(subclass) | yes              |
+|             | diff. return type | diff. parameters | diff. class   | diff. method name | diff. access |
+| ----------- | ----------------- | ---------------- | ------------- | ----------------- | ------------ |
+| overloading | yes               | yes              | no            | no                | yes          |
+| overriding  | no                | no               | yes(subclass) | no                | no           |
 
 #### Final keyword
 ```java
@@ -69,7 +68,14 @@ public final void study()
 
 #### Class Casting
 ![[IMG_2856.jpg|518]]
+虽然 `s1` 的引用类型被限制成了 `Student`，但**堆里实际存在的是一个完整的 `FTStudent` 对象**。 （**注意**：因为 `s1` 的声明类型是 `Student`，编译器在编译期只允许你通过 `s1.name` 或 `s1.id` 访问属性；如果你想直接访问 `s1.lockerNO`，编译器会报错，必须强制类型转换 `((FTStudent)s1).lockerNO` 才可以访问。）
+
 ![[IMG_2857.jpg|519]]
+子类有父类的所有 但是父类没有子类的所有
+想要父类声明访问子类的内容只能downcast
+- **`s1.study()`**：`s1` 的声明类型是 `Student`，但堆里的实际对象是 `FTStudent`。调用 `study()` 时，JVM 会去调用 `FTStudent` 里重写（Override）的 `study()` 方法。
+- 如果当你执行 `s1.study()` 时，因为子类没有重写，JVM 最终去执行的就是在 **`Student` 类里定义的那份 `study()` 代码**。
+- **`s2.study()`**：`s2` 堆里的实际对象就是 `Student`，所以调用的是 `Student` 自己的 `study()` 方法。
 ```java
 Student s1 = new FTStudent();
 Student s2 = new Student();

@@ -1,4 +1,4 @@
-Reserved words
+#### Reserved words
 - The recognition shall only occur when none of the characters is quoted and when the word is used as
 	- first word of a command
 	- the first word following the reserved word other than case, for, in
@@ -14,10 +14,10 @@ echo "how old are you?"
 read -r age 
 echo "you are $age years old"
 ```
-by using a pipe, we can fee the output of a command to such a while loop, enabling us to loop over the lines of output produced by a program
+by using a pipe, we can feed the output of a command to such a while loop, enabling us to loop over the lines of output produced by a program
 ```bash
 ls | while read -r file; do
-#the flag meaning read **without escape** the next line input from the output of `ls` and store in variable file
+#the flag meaning read without escape（-r） the **next line input*** from the output of `ls` and store in variable file
 #since some input may contain backlashes
 	if [ -d "$file" ]; then
 		echo "Is a directory: $file"
@@ -37,7 +37,7 @@ if [ "$answer" != "y" ]; then
 fi
 ```
 
-shift example
+#### shift example
 ```bash
 while [ $# -gt 0 ]; do
 	echo "$1"
@@ -46,15 +46,17 @@ while [ $# -gt 0 ]; do
 done
 ```
 
-Short-circuiting
+#### Short-circuiting
 ```bash
 # && and || used to chain conditions
 if [ -f file1 ] && [ -f file2 ]; then
 	echo "file1 and file2 exist"
 else
 	echo "missing file1 or file2"
+fi
 ```
-Evaluating arithmetic expressions
+
+#### Evaluating arithmetic expressions
 ```bash
 echo $((5+3))
 
@@ -72,7 +74,7 @@ do
 done
 ```
 
-Case statement
+#### Case statement
 ```bash
 animal=$1
 case $animal in
@@ -81,7 +83,7 @@ case $animal in
 	;;
 	dog)
 		echo "You entered 'dog'"
-	；；
+	;;
 	*) #anything but case excutes from top to bottom sequentially.
 	   #if the top conditions are meet, the last line skip automatically 
 		echo "You did not enter 'cat' or 'dog'"
@@ -126,7 +128,7 @@ add 5 6 #same as command arguments
 ```
 
 - bash function returns an exit status, cannot return a value
-- can use command to echo returned value
+- can use command echo to show returned value
 ```bash
 add() {
 	local sum=$(( $1 + $2 ))
@@ -166,7 +168,7 @@ More commands
 - -c : prefix each line with the number of occurance
 - only works on sorted input, because it only compares adjacent lines
 
-**Text stream processing often chained together with `|`**
+Text stream processing often chained together with `|`
 `cat data.txt | cut -f2 | sort | uniq -c | sort -nr`
 
 #### grep
@@ -174,11 +176,12 @@ More commands
 - `grep [options] STRING FILE_LIST`
 	- STRING is the pattern to match (regular expression/regex)
 	- it returns a whole line containing the match
+	- ![[Screenshot 2026-10-03 at 23.51.16.png]]
 - options
 	- -i : ignore case
-	- -n : display line number along with the line on which a match was found
-	- -c : report only a count of lines with the matches
-	- -v : invert, displays the lines do not that
+	- -n : display line number along with the line on which a match was found![[Screenshot 2026-10-03 at 23.50.26.png]]
+	- -c : report only a count of lines with the matches![[Screenshot 2026-10-03 at 23.49.51.png]]
+	- -v : invert, displays the lines do not have that
 	- -l : list filenames, not lines
 ```bash
 grep 'Je' students.txt #list out students whose names start with Je
@@ -191,12 +194,3 @@ grep -n 'Je' students.txt
 #10:Jean-Sebastien
 ``` 
 
-#### quiet
-- If you don't want to see the output of a command on the screen 
-```bash
-grep -q
-
-ls > /dev/null 2 > /dev/null #redirect stdout and stderr to devnull
-#or
-ls > /dev/null 2>&1
-```

@@ -66,7 +66,7 @@ s = s + 'y'; // 's' now points to "heyy"
 
 
 ### Arrays
-- Holds a fixed number of values of **the same type**.
+- Holds a fixed number of values of ==**the same type**==.
 - Note: Array has a fixed size. If you need a bigger array, you must create a new one and copy contents.
 ```java
 //Declaration
@@ -106,6 +106,7 @@ int x;
 int[] y = new int[5]; 
 //Heap Objects Get Default Values: Using `new` allocates an array object in Heap memory. Java automatically initializes elements in heap-allocated arrays to default values (`0` for `int`, `false` for `boolean`, `null` for objects).
 
+int[] myArray;
 myArray[0] = 4; //Cannot do this without allocating array in memory
 
 //You cannot assign values to array indices if the array variable hasn't been instantiated with `new`.
@@ -137,7 +138,7 @@ Seasons[0] = "winter";
 
 | *0x02* |
 | ------ |
-^seasons
+^Seasons
 
 | null |
 | ---- |

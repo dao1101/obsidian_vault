@@ -38,7 +38,7 @@ want to test again later.
 ```bash
 #!/bin/bash
 
-# usage: start_wih_date()  <filename>
+# usage: start_wih_date <filename>
 
 # returns 0 if <filename> starts with YYYY-MM-DD else 1
 

@@ -86,10 +86,10 @@ try{
 ```java
 //Nested catch block
 try{
-} catch(NullPointerExceptione){
+} catch(NullPointerException e){
 } catch(ArithmeticException e){
 }
-//the second there is an exception that is caught the code move on
+//the second there is an exception that is caught the code move on e.g. does not execute the second one
 ```
 
 ```java
@@ -97,7 +97,7 @@ public static void main(String[] args){
 	int[]x = new int[5];
 	try{
 		System.out.println(x[5]);
-	} catch (NullPointerEzception e){
+	} catch (NullPointerException e){
 		System.out.println(e.getMessage());
 		//error message printed
 	}
@@ -112,21 +112,21 @@ public static void main(String[] args){
 	int[]x = new int[5];
 	try{
 		System.out.println(x[5]);
-	} catch (NullPointerEzception e){
+	} catch (ArrayIndexOutOfBoundsException e){
 		System.out.println(e.getMessage());
 		//error message printed
 		try{
 			int y = 2/0;
 		
-		} catch(ArithmeticException otherE){
+		} catch(ArithmeticException otherE){ //嵌套的catch里不能重复声明e
 			System.out.println(otherE.getMEssage());
 		}
 	}
 	System.out.println(x[0]);
 }
 
-//result
-//error messages
+//erro message
+//error message
 //0
 ```
 

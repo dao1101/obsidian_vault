@@ -4,7 +4,7 @@ default floating point --> double
 ```java
 double d = 1.0;
 double e = 1; //converted to 1.0
-int f = 1.0 //error
+int f = 1.0 //error overflow
 ```
 
 *note: if all operands are integers, the result is an integer*
@@ -22,7 +22,7 @@ double c = 1.0/4 //0.25
 	char x = 'a';
 	//only one character allowed
 	char y = 97; //prints 'a'
-	char y = y + 1 //y='b'
+	char y = y + 1 //
 	
 	char d = '!'; //33
 	char e = '"'; //34
@@ -83,7 +83,7 @@ public class L04b {
 	public static int addTwoNumbers(int n1, int n2){
 		//at beginning, with above code, n1=1, n2=2
 		int x = n1 + n2;
-		n1++; //n1 = 2
+		n1++; //n1 = 2, x does not change
 		return x;
 	}
 }

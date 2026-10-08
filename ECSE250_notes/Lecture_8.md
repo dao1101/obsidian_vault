@@ -53,6 +53,7 @@ Inheritance
 - instead of copying pasting Student into FTStudent, we use inheritance
 
 ```java
+//Not using inheritance
 public class FTStudent{
 	String name;
 	int id;
@@ -65,13 +66,13 @@ public class FTStudent extends Student{
 	//only declares the specific fields
 	private int lockerNO;
 	public FTStudent(String name, int id, int lockerNO){
-		this.name=name; //error, private fields
+		//this.name=name; //error, private fields
 						//this.name is inherited
 		super(name,id); //call Student(constructor)
-		this.lockerNO=#
+		this.lockerNO=lockerNO;
 	}
 }
-FTStudent fts=new FTStudent("KP", 1234567);
+FTStudent fts=new FTStudent("KP", 1234567,101);
 //write constructor for object lockerNO
 
 class FTEngStudent extends FTStudent {

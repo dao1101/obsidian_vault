@@ -44,7 +44,7 @@ while(x<5){
 evaluate x<5
 - true: execute body
 - false: skip to after loop 
-- it wil execute 5 times
+- it will execute 5 times
 
 ### For loop
 
@@ -95,8 +95,7 @@ System.out.print(y);
 ```
 
 ```java
-int i;
-for (i=0; i<10; i++){
+for (int i=0; i<10; i++){
 // can access i here
 }
 i=i+1 //cannot access i here
@@ -107,7 +106,7 @@ String x = "a";
 if(true) {
 	x = "a";
 }else{
-	int x = 3;
+	int x = 3; //x is already globally declared
 }
 ```
  *Note: two ==declared ==variables cannot have the same name if they are in the same scope*

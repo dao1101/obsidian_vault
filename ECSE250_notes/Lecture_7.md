@@ -62,7 +62,7 @@ class Student {...} //no public
 ```
 
 ```java
-package buidings;
+package buildings;
 public class Resident{
 	Student resident;
 	//compile error
@@ -101,12 +101,12 @@ Class Main() {
 //can delare multiple constructors
 ```
 
-| Null | <-- s  |
-| ---- | ------ |
-| 0    |        |
-| "KP" | <-- s2 |
-| 123  |        |
-Assign top two to s, assign bottom two to s2
+| Null         | <-- s  |
+| ------------ | ------ |
+| 0            |        |
+| "KP" address | <-- s2 |
+| 123          |        |
+
 
 #### Other methods
 - called on specific object
@@ -119,7 +119,7 @@ Student.study()//wrong
 ```java
 public void study(){
 	System.out.println(name+"is studying");
-	
+	//same as
 	System.out.println(this.name + "is studying")
 	//`this` is the object on which the method is called
 }

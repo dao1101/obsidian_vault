@@ -35,6 +35,7 @@ Indentation does not matter in java as long as there are brakckets
 	- 5 == 5 --> true
 	- `boolean result = 5 == 5;` (declaration assignment)
 	- boolean variable is default to be false
+	- boolean variables cannot be converted to integers
 
 3. logical operators (between boolean variables)
 	- NOT(!), AND(&&), OR(||)
