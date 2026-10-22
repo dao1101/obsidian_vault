@@ -22,8 +22,8 @@ public class StudentList{
 	private int size;
 	
 	public StudentList(){
-		arr = new Student[10];
-		size = 0;
+		arr = new Student[10]; //十个空位里全是null
+		size = 0; //实际存了0个元素
 	}
 }
 
@@ -37,17 +37,18 @@ public Student get(int i){ //Student is the return type
 	if(i>=0 && i<size){ //where size<arr.length
 		return this.arr[i];
 	}else{
-		throw IndexOutofBoundsException();
+		throw new IndexOutOfBoundsException();
 	}
 }
 
 public Student set(int i, Student e){
+	//e.g. Student old = list.set(2, newStudent);
 	//arr[i]=e; this would lose old object
 		
-	if(i>0 && i<size){
-		Student temp = arr[i];
-		arr[i]=e;
-		return temp;
+	if(i>=0 && i<size){
+		Student temp = arr[i]; //先把旧对象存起来
+		arr[i]=e;              //放入新对象
+		return temp;           //返回旧对象
 	}else{
 		throw //exception
 	}
@@ -56,7 +57,7 @@ public Student set(int i, Student e){
 public void add(Student s){
 	//first makesure there is room in array
 	if(arr.length == size){
-		resize(); //helper method
+		resize(); //helper method double the length
 	}
 	arr[size]=s;
 	size++;

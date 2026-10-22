@@ -83,7 +83,8 @@ do{
 ```
 
 ##### for loop
-for(init; condition; iteration)
+for(init; condition; iteration) single_statement;
+					   \{multiple_statements;}
 ```c
 int x, y;
 for (x=0, y=10; x*y<45; x+=2, y--) puts("Hi");

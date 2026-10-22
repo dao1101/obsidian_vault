@@ -13,20 +13,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ECSE206_notes/Homework4.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Homework4"
-            }
-          },
-          {
-            "id": "9ee11e3c1759671e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "ECSE250_notes/Lecture_12.md",
                 "mode": "source",
                 "source": false
@@ -35,8 +21,7 @@
               "title": "Lecture_12"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 221.9296875,
-    "collapsed": true
+    "width": 221.9296875
   },
   "right": {
     "id": "8f53d54f34147595",
@@ -205,27 +189,31 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9ee11e3c1759671e",
+  "active": "d5bc49972c9fc7f7",
   "lastOpenFiles": [
+    "ECSE250_notes/Lecture_5.md",
+    "ECSE250_notes/Lecture_6.md",
+    "ECSE250_notes/Lecture_8.md",
+    "ECSE250_notes/Lecture_9.md",
+    "ECSE250_notes/Lecture_10.md",
+    "ECSE250_notes/Lecture_12.md",
+    "ECSE250_notes/Lecture_11.md",
+    "Attachments/Screenshot 2026-10-21 at 14.41.46.png",
+    "ECSE206_notes/Homework5.md",
+    "ECSE206_notes/Lecture_13.md",
+    "Attachments/Screenshot 2026-10-20 at 21.05.11.png",
+    "Attachments/Screenshot 2026-10-20 at 21.01.18.png",
+    "Attachments/Screenshot 2026-10-20 at 21.01.09.png",
+    "ECSE206_notes/Lecture_12.md",
+    "Attachments/Screenshot 2026-10-20 at 20.01.43.png",
+    "ECSE206_notes/Homework4.md",
     "Attachments/Screenshot 2026-10-16 at 21.32.30.png",
     "Attachments/Screenshot 2026-10-16 at 21.21.27.png",
     "Attachments/Screenshot 2026-10-16 at 21.19.43.png",
     "Attachments/Screenshot 2026-10-16 at 21.13.43.png",
     "Attachments/Screenshot 2026-10-16 at 20.59.03.png",
-    "Attachments/Screenshot 2026-10-16 at 20.55.30.png",
-    "ECSE206_notes/Lecture_12.md",
-    "ECSE250_notes/Lecture_12.md",
-    "Attachments/Screenshot 2026-10-15 at 17.38.41.png",
-    "ECSE250_notes/Lecture_11.md",
-    "ECSE250_notes/Lecture_10.md",
-    "ECSE250_notes/Lecture_9.md",
-    "Attachments/Screenshot 2026-10-10 at 18.11.25.png",
-    "Attachments/Screenshot 2026-10-10 at 18.01.45.png",
-    "Attachments/Screenshot 2026-10-10 at 18.01.31.png",
-    "Attachments/Screenshot 2026-10-10 at 11.23.15.png",
     "ECSE250_notes/Midterm1.md",
     "ECSE206_notes/Lecture_11.md",
-    "ECSE206_notes/Homework4.md",
     "ECSE206_notes/Lecture_9.md",
     "ECSE206_notes/Lecture_10_review.md",
     "ECSE206_notes/Lecture_8.md",
@@ -236,13 +224,9 @@
     "ECSE206_notes/Homework2.md",
     "ECSE206_notes/Lecture_2.md",
     "ECSE206_notes/Lecture_1.md",
-    "ECSE250_notes/Lecture_6.md",
     "ECSE250_notes/Lecture_7.md",
-    "ECSE250_notes/Lecture_8.md",
     "ECSE206_notes/Lecture_6.md",
     "ECSE206_notes/Lecture_4.md",
-    "ECSE250_notes/Lecture_4.md",
-    "ECSE250_notes/Lecture_5.md",
     "Attachments",
     "ECSE206_notes/Attachments"
   ]
