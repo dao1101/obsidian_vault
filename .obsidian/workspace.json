@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d5bc49972c9fc7f7",
+            "id": "49781cd910f291c3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ECSE250_notes/Lecture_12.md",
+                "file": "ECSE206_notes/Lecture_14.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture_12"
+              "title": "Lecture_14"
             }
           }
         ]
@@ -189,29 +189,31 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d5bc49972c9fc7f7",
+  "active": "49781cd910f291c3",
   "lastOpenFiles": [
+    "ECSE206_notes/Lecture_13.md",
+    "ECSE206_notes/Lecture_14.md",
+    "ECSE250_notes/Lecture_12.md",
+    "ECSE250_notes/Lecture_13.md",
+    "Attachments/d6bc7586ea5d405d64c4883774e3b00d.jpg",
+    "Attachments/ae086b6dd57b2c8d546659f6461f53b3.jpg",
+    "Attachments/6cb058e789531de05732047f8ff44a5b.jpg",
+    "Attachments/afc53628fe90d2be61e0ba0be8a69fd5.jpg",
+    "Attachments/cb5d7131c3123e7610c05cfd4b16ebfb.jpg",
     "ECSE250_notes/Lecture_5.md",
     "ECSE250_notes/Lecture_6.md",
     "ECSE250_notes/Lecture_8.md",
     "ECSE250_notes/Lecture_9.md",
     "ECSE250_notes/Lecture_10.md",
-    "ECSE250_notes/Lecture_12.md",
     "ECSE250_notes/Lecture_11.md",
     "Attachments/Screenshot 2026-10-21 at 14.41.46.png",
     "ECSE206_notes/Homework5.md",
-    "ECSE206_notes/Lecture_13.md",
     "Attachments/Screenshot 2026-10-20 at 21.05.11.png",
     "Attachments/Screenshot 2026-10-20 at 21.01.18.png",
     "Attachments/Screenshot 2026-10-20 at 21.01.09.png",
     "ECSE206_notes/Lecture_12.md",
     "Attachments/Screenshot 2026-10-20 at 20.01.43.png",
     "ECSE206_notes/Homework4.md",
-    "Attachments/Screenshot 2026-10-16 at 21.32.30.png",
-    "Attachments/Screenshot 2026-10-16 at 21.21.27.png",
-    "Attachments/Screenshot 2026-10-16 at 21.19.43.png",
-    "Attachments/Screenshot 2026-10-16 at 21.13.43.png",
-    "Attachments/Screenshot 2026-10-16 at 20.59.03.png",
     "ECSE250_notes/Midterm1.md",
     "ECSE206_notes/Lecture_11.md",
     "ECSE206_notes/Lecture_9.md",
@@ -225,8 +227,6 @@
     "ECSE206_notes/Lecture_2.md",
     "ECSE206_notes/Lecture_1.md",
     "ECSE250_notes/Lecture_7.md",
-    "ECSE206_notes/Lecture_6.md",
-    "ECSE206_notes/Lecture_4.md",
     "Attachments",
     "ECSE206_notes/Attachments"
   ]

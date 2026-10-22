@@ -85,7 +85,7 @@ printf("%d", *p); //pirnts 2
 ```
 
 Note:
-- `int *p` and `int* p` are equivalent (one is the dereferenced value of p is int and another is type of p is a pointer-to-int)
+- `int *p` and `int* p` are equivalent (one is the dereferenced value of p is int and the other is type of p is a pointer-to-int)
 - `int* p, q` p is a pointer q is an int here
 -  So it's better to write in this way `int *p, *q`
 -  Can make p = q so they point to the same object
